@@ -9,80 +9,114 @@
         />
         <meta name="discription" content="Купить амуницию для тхэквондо" />
         <title>Магазин спортивной амуниции</title>
+        <link rel="stylesheet" href="cssForIndex.css" />
     </head>
     <body>
-        <img
-            src="https://sun4-17.userapi.com/impg/VHTSyei8BdD0F5J3a6kpnmq9GVsntG7H3TaDTw/kEuKud5T0k0.jpg?size=884x1600&quality=95&sign=45995eb60bbd9f6e2d58030db995a3bd&type=album"
-            alt="Я"
-            width="10%"
-            height="10%"
-        />
-        <h1>Кунц Александр</h1>
-        <p>
-            Я <strong>люблю</strong> занматься <em>спортом</em> и играть в
-            <em>волейболл</em>
-        </p>
-        <p>
-            <strong><em>Мои соц. сети</em></strong>
-        </p>
-        <a href="https://vk.com/id524980632" target="_blank">Вконтакте</a>
-        |
-        <a href="https://web.telegram.org/a/" target="_blank">Телеграм</a>
-        <h2>Мои хобби</h2>
-        <ol>
-            <li>Тренировки</li>
-            <li>Волейболл</li>
-            <li>Чтение</li>
-        </ol>
-        <hr />
-        <h2>Опыт работы</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>LPTTracker</td>
-                    <td>Frontend</td>
-                    <td>2015-2016</td>
-                </tr>
-                <tr>
-                    <td>EPAM</td>
-                    <td>Software Engineer</td>
-                    <td>2016-2017</td>
-                </tr>
-                <tr>
-                    <td>FullStack</td>
-                    <td>Frontend</td>
-                    <td>В будущем</td>
-                </tr>
-            </tbody>
-        </table>
-        <h1>Связаться со мной</h1>
-        <form>
-            <div>
-                <label for="name">Имя</label>
-                <input type="text" placeholder="Введите Имя" id="name" />
+        <div class="conteiner">
+            <img
+                class="avatar"
+                src="https://sun4-17.userapi.com/impg/VHTSyei8BdD0F5J3a6kpnmq9GVsntG7H3TaDTw/kEuKud5T0k0.jpg?size=884x1600&quality=95&sign=45995eb60bbd9f6e2d58030db995a3bd&type=album"
+                alt="Я"
+            />
+
+            <div class="info_text">
+                <h1>Кунц Александр</h1>
+                <p>
+                    Я <strong>люблю</strong> занматься <em>спортом</em> и играть
+                    в
+                    <em>волейболл</em>
+                </p>
+
+                <h4>
+                    <strong><em>Мои соц. сети</em></strong>
+                </h4>
+                <a href="https://vk.com/id524980632" target="_blank"
+                    >Вконтакте</a
+                >
+                |
+                <a href="https://web.telegram.org/a/" target="_blank"
+                    >Телеграм</a
+                >
             </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" placeholder="Введите Email" id="email" />
+
+            <div class="card_for_hobby">
+                <div class="margin">
+                    <h2>Мои хобби</h2>
+                    <ol class="list">
+                        <li>Тренировки</li>
+                        <li>Волейболл</li>
+                        <li>Чтение</li>
+                    </ol>
+                </div>
             </div>
-            <div>
-                <label for="textare">Сообщение</label>
-                <br />
-                <textarea
-                    placeholder="Введите сообщение..."
-                    id="textare"
-                    cols="30"
-                    rows="10"
-                ></textarea>
+            <hr />
+            <div class="card_for_exp_work">
+                <div class="margin">
+                    <h2>Опыт работы</h2>
+                    <table class="table">
+                        <tr>
+                            <td>Название</td>
+                            <td>Должность</td>
+                            <td>Год</td>
+                        </tr>
+
+                        <tr>
+                            <td>LPTTracker</td>
+                            <td>Frontend</td>
+                            <td>2015-2016</td>
+                        </tr>
+                        <tr>
+                            <td>EPAM</td>
+                            <td>Software Engineer</td>
+                            <td>2016-2017</td>
+                        </tr>
+                        <tr>
+                            <td>FullStack</td>
+                            <td>Frontend</td>
+                            <td>В будущем</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <button type="submit">Отправить</button>
-        </form>
+            <div class="card_write_me">
+                <nav class="margin">
+                    <form class="form">
+                        <h1>Связаться со мной</h1>
+                        <div class="form_row">
+                            <div class="form_group">
+                                <label for="name">Имя</label>
+
+                                <input
+                                    type="text"
+                                    placeholder="Введите Имя"
+                                    id="name"
+                                />
+                            </div>
+                            <div class="form_group">
+                                <label for="email">Email</label>
+
+                                <input
+                                    type="email"
+                                    placeholder="Введите Email"
+                                    id="email"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="form_group">
+                            <label for="textare">Сообщение</label>
+                            <textarea
+                                placeholder="Введите сообщение..."
+                                id="textare"
+                                cols="30"
+                                rows="10"
+                            ></textarea>
+                        </div>
+
+                        <button class="btn" type="submit">Отправить</button>
+                    </form>
+                </nav>
+            </div>
+        </div>
     </body>
 </html>

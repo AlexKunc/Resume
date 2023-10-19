@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Roboto&family=Young+Serif&display=swap');
+@media (max-width: 500px) {
+    .conteiner img {
+        width: 200px;
+        height: 300px;
+    }
+    .info_text p {
+        font-size: 16px;
+    }
+    .info_text h1 {
+        font-size: 25px;
+    }
+    .info_text h4 {
+        font-size: 17px;
+    }
+    .info_text a {
+        font-size: 15px;
+    }
+    .card_for_hobby h2 {
+        font-size: 20px;
+    }
+    .card_for_exp_work h2 {
+        font-size: 20px;
+    }
+    .card_write_me h1 {
+        font-size: 20px;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+    background: #f1eded;
+}
+
+.info_text p {
+    font-size: 20px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    color: #4b0831;
+}
+
+h2 {
+    color: rgb(58, 19, 109);
+}
+
+.card_for_hobby {
+    border: 2px solid rgb(190, 185, 185);
+    background: rgb(131, 206, 131);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.card_for_exp_work {
+    border: 2px solid rgb(190, 185, 185);
+    background: rgb(207, 140, 115);
+    border-radius: 15px;
+    margin: 10px;
+}
+.card_write_me {
+    border: 2px solid rgb(190, 185, 185);
+    background: rgb(241, 252, 181);
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.conteiner {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.avatar {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    /* box-shadow - тень, параметры: 1 - по оси oX, 2 - по оси oY, 3 - размытие, 4 - растянутость, 5 - цвет */
+    box-shadow: 10px 15px 15px rgba(0, 0, 0, 1);
+}
+
+.btn {
+    padding: 10px 15px;
+    background: rgb(155, 84, 84);
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: blue;
+}
+
+.table {
+    width: 100%;
+}
+.table tr {
+    text-align: center;
+}
+.table tr:first-child {
+    background: rgb(173, 116, 95);
+    font-weight: 900;
+}
+
+.list {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.list li:hover {
+    background: rgb(170, 241, 62);
+}
+
+.form_row {
+    margin-bottom: 10px;
+    /* Почитать */
+    display: flex;
+}
+.form_row .form_group {
+    display: inline-block;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+.form_group label {
+    display: block;
+}
+
+.form_group input,
+.form_group textarea {
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    /* Прозрачный background */
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding: 5px 0 10px;
+}
